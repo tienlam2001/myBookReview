@@ -1,0 +1,18 @@
+<html>
+<header>
+    <title>home Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='/css/home.css')}}">
+</header>
+<body>
+
+    {% for data in keys: %}
+    <a href="{{url_for('home', name=data)}}"><div>
+        <img src="{{datas[data]['url']}}" alt="">
+        <section>
+            <h2>{{data.upper()}}</h2>
+            <p>{{datas[data]['description']}}</p>
+        </section>
+    </div></a>
+    {% endfor %}
+</body>
+</html>

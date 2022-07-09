@@ -1,0 +1,44 @@
+{
+    "one to zero": {
+        "url": "https://target.scene7.com/is/image/Target/GUEST_88673c68-d0b6-46c4-8ea2-d84c2d6bf2f8?wid=488&hei=488&fmt=pjpeg",
+        "description": "This is book will teach you how successful startup work" ,
+        "Idea": [
+            "Focus on product",
+            "Treat entrepreneueship as experiment",
+            "Software engineer will the business more cost advance",
+            "Make the product 10x better",
+            "Focus on improving product that already have exist customers",
+            "Bad plan is better than no plan",
+            "Business has to be lean, mean plan for unplanned",
+            "Success isn't accident",
+            "start at the small scale, make sure the idea work before scaling",
+            "avoid competition as much as possible"
+        ]
+    },
+    "steve job": {
+        "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511288482i/11084145._UY2846_SS2846_.jpg",
+        "description": "This is book will teach you how steve his business" ,
+        "Idea": [
+            "Focus on Innovation"
+        ]
+    },
+    "millionaire fastlane": {
+        "url": "https://i.pinimg.com/736x/ab/a3/88/aba388b6730b456641734648f9c83d8e.jpg",
+        "description": "This is book will teach you how people got rich when they are so young" ,
+        "Idea": [
+            "Command of Need",
+            "Command of Entry",
+            "Command of Scale",
+            "Riches are driver not passenger",
+            "Law of Effection, You have to affect a million people in order to make million",
+            "Business give you the power to leverage",
+            "Value time",
+            "Do What You love it, die as you love it. When have to find needs of customer to fill in order to make million",
+            "Command of Control",
+            "Command of Time",
+            "Make sure the idea satisfy 5 command before executing",
+            "USP providing best customer service, don't look at your competitors but the road ahead so that way you can be very innovate",
+            "Do not focus on many thing or many opportunities because it won't work"
+        ]
+    }
+}

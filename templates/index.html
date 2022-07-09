@@ -1,0 +1,22 @@
+<html>
+<header>
+    <title>Maim Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='/css/index.css')}}">
+</header>
+<body>
+    <img id = "image" src="{{image}}" alt="">
+    <div>
+
+            {% for i in datas: %}
+
+            <p>{{ i }}</p>
+
+            {% endfor %}
+        <form action="{{url_for('handleInput',de=line)}}" method="post">
+            <input type="text" name="idea">
+            <input type="submit">
+        </form>
+
+    </div>
+</body>
+</html>
