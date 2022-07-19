@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Add book</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
 </head>
 <body>
-<form action="">
-  <input type="text" name="book">
-  <input type="text" name="url">
-  <input type="text" name="idea">
-  <input type="submit">
-  
+<form action="{{url_for('addBook')}}" method="post">
+    <label for="book">Book Name</label>
+  <input id ="box" type="text" name="book">
+    <label for="url">Image Url</label>
+  <input id ="box" type="text" name="url">
+    <label for="description">Give description</label>
+  <input id ="box" type="text" name="idea">
+  <input id="button" type="submit">
+  {% if isSuccess == True:%}
+    <h1>Successfully Added</h1>
+
+  {% else %}
+    <h1>Empty</h1>
+    {% endif %}
+    <a href="{{url_for('main')}}"> Go to Page</a>
 </form>
 
 </body>

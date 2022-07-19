@@ -10,6 +10,28 @@ def api():
         data = json.load(file)
         return jsonify(data)
 
+@app.route('/add',methods=['get','post'])
+def addBook():
+    checker = False
+    try:
+        bookName = request.form['book']
+        urlLink = request.form['url']
+        ideas = request.form['idea']
+        print(bookName)
+    except KeyError:
+        print("Can't find value")
+    else:
+        with open('data.json', 'r') as file:
+            data = json.load(file)
+            updateFile = data
+            with open('data.json', 'w') as file2:
+                updateFile[bookName] ={"url": urlLink,"description":ideas,"Idea":[]}
+                data= updateFile
+                json.dump(data, file2, indent=4)
+                checker=True
+
+    return render_template('addBook.html',isSuccess=checker)
+
 @app.route("/")
 def main():
     with open('data.json', 'r') as file:
@@ -18,7 +40,7 @@ def main():
         length = len(data.keys())
         print(length)
         print(key)
-        return render_template("home.html", datas=data, keys=key,longArray=length)
+    return render_template("home.html", datas=data, keys=key,longArray=length)
 
 @app.route("/book/<name>")
 def home(name):
