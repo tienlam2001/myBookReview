@@ -1,7 +1,7 @@
 {
     "one to zero": {
         "url": "https://target.scene7.com/is/image/Target/GUEST_88673c68-d0b6-46c4-8ea2-d84c2d6bf2f8?wid=488&hei=488&fmt=pjpeg",
-        "description": "This is book will teach you how successful startup work" ,
+        "description": "This is book will teach you how successful startup work",
         "Idea": [
             "Focus on product",
             "Treat entrepreneueship as experiment",
@@ -12,19 +12,21 @@
             "Business has to be lean, mean plan for unplanned",
             "Success isn't accident",
             "start at the small scale, make sure the idea work before scaling",
-            "avoid competition as much as possible"
+            "avoid competition as much as possible",
+            "There are always secret to be discover",
+            "HP companies since stopping to discover new things, their value has been decline"
         ]
     },
     "steve job": {
         "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511288482i/11084145._UY2846_SS2846_.jpg",
-        "description": "This is book will teach you how steve his business" ,
+        "description": "This is book will teach you how steve his business",
         "Idea": [
             "Focus on Innovation"
         ]
     },
     "millionaire fastlane": {
         "url": "https://i.pinimg.com/736x/ab/a3/88/aba388b6730b456641734648f9c83d8e.jpg",
-        "description": "This is book will teach you how people got rich when they are so young" ,
+        "description": "This is book will teach you how people got rich when they are so young",
         "Idea": [
             "Command of Need",
             "Command of Entry",

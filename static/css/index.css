@@ -13,3 +13,31 @@ p{
    height: auto;
 }
 
+input#box{
+    width: 200px;
+    border: none;
+    border-bottom: 3px solid lightgreen;
+    transition: width 4s;
+    animation-name: de;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+
+}
+@keyframes de{
+    from {border-bottom:3px solid lightgreen;}
+    to {border-bottom:3px solid lightblue;}
+}
+input#box:focus{
+    border: none;
+    outline:none;
+    border-bottom: 3px solid lightblue;
+    width: 400px;
+}
+input#button{
+    border-radius:5px;
+    background-color:lightgreen;
+    color : black;
+    border:none;
+    width:70px;
+    height: 20px;
+}
