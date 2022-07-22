@@ -1,7 +1,5 @@
-from flask import Flask, jsonify,render_template, request, url_for, redirect, flash, send_from_directory
-import requests
+from flask import Flask, render_template
 import json
-
 app = Flask(__name__)
 
 @app.route("/books")
@@ -73,5 +71,5 @@ def uploadData():
         data = json.load(file)
         return jsonify(data)
 
-if __name__ == "__main__":
-    app.run(debug=True,port=5000)
+
+app.run(host='0.0.0.0', port=81)
