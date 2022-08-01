@@ -1,7 +1,8 @@
 from flask import Flask, render_template, jsonify
 import json
+import os
 app = Flask(__name__)
-
+port = int(os.environ.get('PORT', 5000))
 @app.route("/books")
 def api():
     with open('data.json', 'r') as file:
@@ -72,4 +73,4 @@ def uploadData():
         return jsonify(data)
 
 
-app.run(host='0.0.0.0', port=81)
+app.run(host='0.0.0.0', port=port)
